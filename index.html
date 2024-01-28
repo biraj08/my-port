@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="design-logo.png" class="logo">
+                <ul id="sidemenu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark tch" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars tch" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <h6>HELLO!</h6>
+                <h2>I'm <span class="auto-input">Biraj Kuwar</span></h2>
+                <p class="p1">You can reach out to me if you need any help in <br> making a website for you or your business..</p>
+
+                <a href="#contact" class="bt1">Contact Me</a>
+                <a href="#" class="bt2">Download CV</a>
+
+            </div>
+        </div>
+    </div>
+
+
+<!-- -----------------------------about------------------------------- -->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+     
+            <div class="about-col-2">
+                <h2 class="subtitle">About Me</h2>
+                <p>Web developer with expertise in front-end and back-end development. Proficient in HTML, CSS, and JavaScript, with a keen understanding of UI/UX design principles. Showcase projects demonstrating coding skills and contributions to user-friendly interfaces.Scroll below and see my projects...</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links"  onclick="opentab('Experiences')">Experiences</p>
+                    <p class="tab-links"  onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>UI / UX </span><br> Designing web app and interface</li>
+                        <li><span>Web development</span> <br> Designing Web app interface</li>
+                        <li><span>App development</span><br> Designing ios & android application</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="Experiences">
+                    <ul>
+                        <li><span>2024-current </span><br> Designing web app and interface</li>
+                        <li><span>2020-2023</span> <br> Graphic designer at microsoft</li>
+                        <li><span>2018-2020</span><br> Designing ios & android application</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2023-current </span><br> Bca 2nd year at Sarala Birla University</li>
+                        <li><span>2020-2022</span> <br> YSSK Vidyapith Lakhanpur</li>
+                        <li><span>2014-2019</span><br> Apna School</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="about-col-1">
+                <img src="Html & Css_page-0001.jpg" alt="My pic" id="about-image">
+            </div>
+        </div>
+    </div>
+</div>
+    
+
+<!-- ----------------------------services--------------------------------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque eum soluta quibusdam libero ducimus necessitatibus?</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-mobile"></i>
+                <i class="fa-brands fa-android"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque eum soluta quibusdam libero ducimus necessitatibus?</p>
+                <a href="#">Learn more</a>
+            </div>  
+
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque eum soluta quibusdam libero ducimus necessitatibus?</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ------------------portfolio--------------------------->
+
+
+<div id="portfolio">
+    <div class="container">
+        <h2 class="subtitle">My Work</h2>
+        <div class="worklist">
+            <div class="work">
+                <img src="pic4.jpg" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem corrupti minus laborum veritatis, distinctio veniam explicabo alias blanditiis sunt harum.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="pic4.jpg" alt="">
+                <div class="layer">
+                    <h3>Socialy connect</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem corrupti minus laborum veritatis, distinctio veniam explicabo alias blanditiis sunt harum.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="pic4.jpg" alt="pic3">
+                <div class="layer">
+                    <h3>Social App</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem corrupti minus laborum veritatis, distinctio veniam explicabo alias blanditiis sunt harum.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- ---------------------contact-------------------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fa-brands fa-telegram"></i><a href="mailto:birajkuwar6@gmail.com">birajkuwar6@gmail.com</a></p>
+                <p><i class="fa-solid fa-phone" id="num"></i>+91-9749547339</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/biraj.kuwar/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="htttps://www.linked.com/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="A To Z Computer Full Forms List.pdf" class="btn">Download CV</a>
+
+            </div>
+
+            <div class="contact-right">
+                <form>
+                    <input type="text" Name="Name" placeholder="Your Name" required>
+                    <input type="email" Name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn2" >Submit</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<footer class="f1">
+    Made with &hearts; by Biraj.
+    <br>
+    &#169; 1996-2023, Amazon.com, Inc. or itd affiliates
+</footer>
+
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
